@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>AAP | views </title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" 
+    crossorigin="anonymous">
+	<link rel="icon" type="image/png" href="./images/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="./style/form.css">
+    <link rel="stylesheet" type="text/css" href="./style/stylee.css">
+	<link rel="stylesheet" media="(max-width:800px)" href="CSS/mobile.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/main.css">
+<body>
+	<img class="bg-image" src="images/aaap.jpeg" alt="logo">
+	<!-- header and nav-bar -->
+	<div class="main-container">
+		<header class="main-header">
+			<img class="logo" src="images/aaap.jpeg" alt="Logo">
+			<h1> 
+				<marquee>Feel free to contact us and share your views concerning our programme</marquee>
+			</h1> 
+		</header>
+		<nav id="navbar">
+            <div class="container">
+                 <h1 class="logo"><a href="index.html">AAP</a> </h1>
+                 <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a  href="contact.html">Contact</a></li>
+                </ul>
+             </div>
+        </nav>
+        	<div class="theme theme-hide" id="theme" style="text-align: center;">
+				<!-- <marquee scrollamount="4" behavior="alternate" direction="right" > -->
+					Africa Agricultural Programme 
+				<!-- </marquee> -->
+			</div>
+		</nav>
+        <div class="container">
+			<section class="main">
+                <form name="datacollection" method="POST" data-netlify="true">
+                    <div class="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input autocomplete="off" type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input autocomplete="off" type="email" required="please fill out this field"  name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input autocomplete="off" type="tel" required="please fill out this field"  name="number" id="phone">
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <label for="message">Your message please</label>
+                            <textarea autocomplete="off" required="please fill out this field"  type="message" name="message" id="message"></textarea>
+                        </div>
+                        <button class="btn" type="submit">submit</button>
+                    </div>
+                </form>
+			</section>
+		</div>
+	</div>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="theme">
+                Africa Agricultural Programme
+            </div>
+            <div class="contact">
+                Contact Us:
+            </div>
+            <ul class="list"> 
+                <li class="li ph"><a href="tel:+254 791214033"><i class="fa fa-phone fa-fs"></i>call us</a></li>
+                <span class="i"></span>
+                <li class="li fb" id="large-screen"><a target="_blank" href="https://web.facebook.com/AAPAfrica"><i class="fab fa-facebook fa-fs"></i> AAP Africa</a></li>
+                <li class="li fb"><a id="small-screen" target="_blank" href="fb://https://www.facebook.com/AAPAfrica"><i class="fab fa-facebook fa-fs"></i> CRCMoiCU</a></li>
+                <span class="i"></span>
+                <li class="li em"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=infor@aap.org.com" target="_blank"><i class="fa fa-envelope fa-fs"></i>infor@aap.org.com</a></li>
+                <span class="i"></span>
+                <li class="li yt"><a href="https://www.youtube.com/channel/UCpiK2UTFt4kY2k9e63kvVaw"><i class="fab fa-youtube fa-fs"></i>@africaagriculturalprogramme</a></li>
+            </ul>
+            <!-- "mailto:email@example.com?subject=Mail from our Website" -->
+            <div class="copy">
+                Created for AAP <br>
+                copyright&copy;2021 all rights reserved
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script> 
+    <script src="javascript/main.js"></script>
+    <script src="javascript/containcontroller.js"></script>
+
+</body>
+</html>

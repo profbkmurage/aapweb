@@ -15,7 +15,6 @@
     /* Showcase */
     #showcase {
         height: 100%;
-        border:red solid 5rem;
     }
     #showcase .showcase-content {
         padding-top: 70px;
@@ -36,6 +35,8 @@
         width: 100%;
         padding:25px 15px;
     }
+
+ 
     #home-info .info-content p{font-size:1rem;}
     /* Boxes */
     .box {

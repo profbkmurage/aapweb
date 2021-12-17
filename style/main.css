@@ -1,0 +1,231 @@
+/* reset everything to default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+
+/* utility class */
+.bg-image { /*this will give the blury effect of glassimophism */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+	position: fixed;
+	opacity: 0.95;
+	z-index: -1;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.main-container {
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.5),
+		rgb(55, 43, 230, 0.15)
+	);
+	padding-bottom: 0.5rem;
+	margin: 0rem;
+	backdrop-filter: blur(0.5rem);
+}
+
+.text-primary {
+    color: #036103;
+}
+.lead {
+    font-size: 2rem;
+    color: #0a113a;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #158806;
+    color: #fff;
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: rgb(13, 71, 3);
+    color: #fff;
+}
+.bg-primary{
+    color:  #333;
+    background: #f7c08a;
+}
+.clr {
+    clear: both;
+}
+.l-heading {
+    font-size: 20px;
+    line-height: 1.2;
+}
+/* padding */
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+/* navbar */
+#navbar {
+    background:#333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+/* consider using flex box */
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+}
+
+
+/* showcase */
+#showcase {
+    /* the .. means you will have to go outside of the current folder */
+    background: url(../images/mac.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+    color:#110b06;
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.6em;
+}
+
+/* home info */
+#home-info {
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../images/aaap.jpeg') no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    text-align: center;
+    /* overflow: hidden; */
+    height: 100%;
+    padding: 50px 30px;
+}
+#home-info .info-content h2{
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+#home-info .info-content .pp{color:#f7c08a;}
+#home-info .info-content p{font-size: 1.6rem;}
+
+/* features section */
+.box {
+    float: left;
+    width: 33.3333%;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+
+
+/* About info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+/* testimonials */
+#testimonials {
+    height: 100%;
+    /* background: url('../images/aaap.jpeg') no-repeat center center/cover; */
+    align-items: center;
+}
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#testimonials .twitter-timeline{padding: 0;margin: 0;}
+
+/* footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+/*  */

@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+/* header{border: red solid 4rem; padding:0;margin:0;} */
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 1.2rem;
+}
+
+p{
+    margin: 1rem 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    /* padding: 0 1.2rem; */
+}
+
+.text-primary{
+    color: #A52A2A;
+}
+
+
+.lead{
+    /* border: 5rem red solid; */
+    /* padding: 3rem; */
+    line-height: 5rem;
+    font-size:1.5rem;
+    color: #210070;;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: rgb(23, 27, 221);
+    padding: 0.9rem 1.2rem;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: #14e60d;
+    color: rgb(23, 27, 221);
+}
+
+.btn-light{
+    background-color:#e715d6 ;
+    color: #333;
+}
+
+.bg-dark{
+    background:  rgba(1, 39, 9, 0.966);
+    color: #fff;
+}
+
+.bg-light{
+    background-color:rgb(15, 71, 1)  ;
+    color: #f4f4f4;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color:#333 ;
+}
+
+.clear{
+    clear: both;
+}
+
+.py-1{padding:0.63rem 0;}
+.py-2{padding:1.2rem 0;}
+.py-3{padding:1.8rem 0;}
+
+.l-heading{
+    font-size: 2.1rem;
+}
+
+#navbar{
+    background: #333333;
+    color: #fff;
+    overflow: auto;
+}
+
+
+
+
+#navbar a{
+    color: white;
+      word-spacing: 3rem;
+      font-size: 2rem;
+}
+#navbar h1{
+    float: left;
+    padding-top: 1.2rem;
+}
+
+#navbar ul{
+    list-style: none;
+    float:right;
+}
+
+
+#navbar ul a{
+    display:inline;
+    padding:1.2rem;
+    text-align: center;
+  
+}
+
+#navbar .container ul a:hover, #navbar .container ul a.current {
+    background: #444;
+    color: #f7c08a;
+}
+
+#showcase{
+    height: 30rem;
+}
+
+#showcase .showcase-content{
+    color: rgba(255, 255, 255, 0.418);
+    text-align: center;
+    padding:12rem 0;
+}
+
+#showcase .showcase-content h1{
+    font-size: 3.75rem;
+    line-height:1.2rem ;
+    color: #013220;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 1.2rem;
+    line-height: 1.7rem;}
+
+#home-info{
+    height: 25rem;
+    padding:0 2rem 0 0;
+
+}
+
+#home-info .info-img{
+    float: left;
+    width:20% ;
+    min-height: 100%;
+    text-align: center;
+    
+}
+#home-info .info-content{
+    /* float: right; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 2.2rem;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+#home-info .info-content p{
+    padding-bottom:1.9rem;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding:3.2rem;
+    text-align: center;
+}
+
+/* /* .box i{
+    margin-bottom: 10px;
+} */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 40%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#testimonials{
+    height:60rem;
+    padding-top: 2.5rem;
+    background: url('./iimage.jpg') no-repeat center center/cover;
+}
+#testimonials h2{
+    font-size: 2.5rem;
+    color: #013220;
+    text-align: center;
+    padding-bottom: 4.3rem;
+}
+#testimonials .testimonials{
+    opacity: 0.5;
+    padding:1.2rem;
+    margin-bottom: 2.5rem;
+    border-radius: 5px;
+}
+
+.bg-pri{
+    background-color: rgb(28, 31, 228);
+    color: white;
+}
+
+
+#testimonials .testimonials img{
+
+    float:left;
+    margin-right: 1.2rem;
+    border-radius: 50%;
+    width: 6.2rem;
+}
+
+/* #contact-form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+#contact-label{
+    display: block;
+    margin-bottom: 1.2rem;
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.1rem #ddd solid;
+}
+#contact-form textarea{
+    height:12.5rem ;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    border-color:#e715d6 ;
+} */
+
+#main-footer{
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 1.2rem;
+    
+}
+
+.container h2 .lheading {
+    color: #333;
+    text-align: center;
+    font: bold 20px Consolas;
+    border: solid red 5rem;
+}
+
+/* blur effect */
+.bg-image { /*this will give the blury effect of glassimophism */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+	position: fixed;
+	opacity: 0.95;
+	z-index: -1;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.main-container {
+	background: linear-gradient(
+		to right bottom,
+		rgba(255, 255, 255, 0.5),
+		rgb(55, 43, 230, 0.15)
+	);
+	backdrop-filter: blur(0.25rem);
+    /* border: red solid 5rem; */
+}
+
+.ab{text-align: center; color:#013220}
+
+h1 .logo {
+    /* border: red solid 5rem; */
+    word-spacing: normal;
+}

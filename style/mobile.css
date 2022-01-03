@@ -84,3 +84,9 @@
 #home-info .info-content .etc {
     display: none;
 }
+#testimonials h2 {
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding-bottom: 5px;
+}
+#testimonials .twitter-timeline{padding: 0;margin-right: 0;margin-left: 0; width: 100%;}

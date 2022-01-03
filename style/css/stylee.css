@@ -93,11 +93,12 @@ h3 {
 
 }
 .main-header .logo {
-	width: 100px;
+	width: 10.2%;
 	float: left;
 	position: absolute;
 	left: 0%;
 	top: 0%;
+	height: 10.2%;
 }
 
 .main-header h1 {

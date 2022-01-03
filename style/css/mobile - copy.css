@@ -15,7 +15,6 @@
     /* Showcase */
     #showcase {
         height: 100%;
-        border:red solid 5rem;
     }
     #showcase .showcase-content {
         padding-top: 70px;
@@ -23,15 +22,21 @@
     }
     
     /* Home Info */
-    #home-info .info-img{
+    /* #home-info .info-img{
         display: none;
+    } */
+    #home-info{
+        display: block;
+        align-items: center;
+        height: fit-content;
     }
     #home-info .info-content {
         float: none;
         width: 100%;
+        padding:25px 15px;
     }
-   
-    
+ 
+    #home-info .info-content p{font-size:1rem;}
     /* Boxes */
     .box {
         float: none;
